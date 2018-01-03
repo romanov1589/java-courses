@@ -17,5 +17,21 @@ public class Calculator {
 
         }
     }
+    public void mult(int ...params){
+        for (int i = 0; i < params.length-1 ; i++) {
+            result = params[i] * params[i+1];
+        }
+    }
+    public void subs(int ...params){
+        for (int i = 0; i < params.length-1 ; i++) {
+            result = params[i] - params[i+1];
+        }
+    }
+    public void div(int ...params){
+        for (int i = 0; i < params.length-1 ; i++) {
+            result = params[i] / params[i+1];
+        }
+    }
+
 
 }
